@@ -1,0 +1,60 @@
+[
+
+    {
+        "id":1,
+        "name": "Entrekids",
+        "date": "Agosto 2017 - Presente",
+        "city": "Moradabad",
+        "job": "UX/UI Designer / Front End Developer",
+        "url": "https://www.entrekids.cl",
+        "logo": "https://ucarecdn.com/d1f576be-7108-471c-9100-901c05dd5667/Logoremovebgpreview.png",
+        "description": "Desempeño tareas de diseños UI/UX, programación de lógicas de e-commerce, soluciones de data science, seo offpage y onpage, tambien de dedico a la creación automatizada de bot de scrapping, recolección de datos y creación de bases de datos.",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Escribí código moderno, eficaz y fácil de mantener para una amplia gama de proyectos internos y de clientes.</div> <div class='flex mb-2 item-works'>Trabaje con una variedad de diferentes lenguajes, plataformas, marcos y sistemas de administración de contenido, como JavaScript, TypeScript, Gatsby, React, Craft,  Prismic y Netlify.</div> <div class='flex mb-2 item-works'>Automatize el trabalho de diseño y programación de contenido, creando una herramienta automatizada.</div>"
+            
+        ]
+    },
+    
+    {
+        "id":2,
+        "job": "UX/UI Designer / Front End Developer",
+        "date": "Enero 2022 - Presente",
+        "url": "https://criptovision.com/",
+        "logo": "https://ucarecdn.com/69c31900-7f1c-4a24-b4a0-314771051272/logo_criptovsion_03.svg",
+        "name":"criptoVision",
+        "city":"Lucknow",
+        "description": "CriptoVision es un ecosistema basado en tecnología blockchain Para potenciar y dinamizar una Educación Descentralizada (DeED) con las finanzas descentralizadas (DeFi) a través de VsionPAD y VSION DeFi",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Ayudo a diseñar y estructurar las aplicaciones del ecosistema de criptovision .</div> <div class='flex mb-2 item-works'>Ayudo a crear experiencias de usuarios y diseño de interfaces.</div> "
+        ]
+    },
+    
+     
+    {
+        "id":3,
+        "job": "UX/UI Designer / Front End Developer",
+        "date": "Febrero 2019 - Febrero 2022",
+        "url": "https://puntodata.cl/",
+        "logo": "https://ucarecdn.com/8aeed1b7-afe9-42e3-8fb0-c75f8f6c22b9/LogoPDRGB1removebgpreview.png",
+        "name":"puntodata",
+        "city":"Lucknow",
+        "description": "Conectamos a cientos de compradores en todo Chile y capacitamos  a las personas y empresas creando ideas, oportunidades y negocios para todos. Tenemos un equipo experto que se preocupa por dar soporte técnico empresarial a tu organización, entregando un servicio de primera y explicándotelo en un idioma fácil de entender.",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Brindamos soporte tecnico a empresas sobre instalacion .</div> <div class='flex mb-2 item-works'>Diseñamos en digital todo lo que imaginas y le damos un poco de vida a los proyectos que siempre quisiste tener</div> <div class='flex mb-2 item-works'>Una buena estrategia es para tu negocio tan importante como el combustible para tu vehículo. Así que recarga ahora mismo</div>"
+        ]
+    },
+    {
+        "id":4,
+        "job": "UX/UI Designer / Front End Developer",
+        "date": "Enero 2018 - Marzo 2019",
+        "url": "https://josbert2.github.io/piazza/",
+        "logo": "https://ucarecdn.com/e623bfa7-f745-4f90-b350-c63681ad99d7/logo2.png",
+        "name":"Little Piazza",
+        "city":"Lucknow",
+        "description": "Restaurante frances que me dió en la reconstruccón de su sitio web, aplicando diseño interactivo y UX. Logramos crear una experiencia de usuario que se adapte a cualquier dispositivo. ",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Diseñamos y construimos una app para atender pedidos y realizar deliverys </div>"
+        ]
+    }
+
+]
