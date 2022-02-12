@@ -96,7 +96,7 @@ const Header = () => {
        
         <div>
             <Progress scroll={scrollPosition + '%'} />
-            <header className="fixed z-10 w-full py-3 px-52 header--class">
+            <header className="fixed z-10 w-full py-3 md:px-44 lg:px-40 xl:52 header--class">
              
              <div className="flex items-center w-full">
                  <div className="logo-main h-11">

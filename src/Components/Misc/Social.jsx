@@ -6,7 +6,7 @@ const Social = () => {
             <div orientation="left" class="w-11 fixed bottom-0 left-10 right-auto z-10 ">
             <ul class="social__">
                 <li>
-                    <a href="https://github.com/bchiang7" class="p-2" aria-label="GitHub" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/josbert2" class="p-2" aria-label="GitHub" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                             <title>GitHub</title>
                             <path
@@ -16,7 +16,7 @@ const Social = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/bchiang7" aria-label="Instagram" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/josbert_ui/" aria-label="Instagram" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
                             <title>Instagram</title>
                             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -26,7 +26,7 @@ const Social = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/bchiang7" aria-label="Twitter" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/JosbertHern" aria-label="Twitter" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
                             <title>Twitter</title>
                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
@@ -34,7 +34,7 @@ const Social = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/bchiang7" aria-label="Linkedin" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/josbert-hernandez-317b77113/" aria-label="Linkedin" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
                             <title>LinkedIn</title>
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -44,7 +44,7 @@ const Social = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer">
+                    <a href="https://codepen.io/josbert" aria-label="Codepen" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen">
                             <title>CodePen</title>
                             <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>

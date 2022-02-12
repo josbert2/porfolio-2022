@@ -55,7 +55,7 @@ const Worked = () => {
           02. <span className="ml-2.5 text-2xl text-white"> Where I´ve Worked</span>
           
       </div> 
-      <div className="py-44 height-max">
+      <div className="py-20 height-max">
           <div className="grid grid-cols-3 gap-20">
             <div>
                 <div class="box">
@@ -79,7 +79,7 @@ const Worked = () => {
 
             </div>
             <div className="col-span-2">
-                <div className="text-white tw-container-tab md:px-14">
+                <div className="text-white tw-container-tab md:px-0 lg:px-0 xl:pl-5">
                     {Data.map((info, index)=>{
                         return(
                           <div  class={ index == 0 ? 'item-container-tw w-full active' : 'item-container-tw w-full'} data-tab={info.id}>

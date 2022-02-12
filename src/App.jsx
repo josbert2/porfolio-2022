@@ -23,15 +23,15 @@ import logo from './assets/img/logo.jpg';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="hidden App md:block">
       <Header />
       <Social />
       {/* <SmothScroll /> */}
-      <Cube />
+      {/*<Cube /> */}
       
       <div class='grey'></div>
 
-        <div className="px-52" >
+        <div className="md:px-44 lg:px-40 xl:52" >
          
           <div class="main-hero">
           <section class="mb-3">
@@ -70,7 +70,7 @@ const App = () => {
         
         </div>
        
-        <div className='px-52'>
+        <div className='md:px-44 lg:px-40 xl:52'>
         <About /> 
         <Worked />
         <Works /> 

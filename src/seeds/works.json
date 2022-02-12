@@ -55,6 +55,32 @@
         "aptitude": [
             "<div class='flex mb-2 item-works'>Diseñamos y construimos una app para atender pedidos y realizar deliverys </div>"
         ]
+    },
+    {
+        "id":5,
+        "job": "Backend / Front End Developer",
+        "date": "Enero 2017 - Marzo 2017",
+        "url": "https://cajitas.cl/",
+        "logo": "https://ucarecdn.com/2172fe1e-6200-4b40-a121-ffbf2a7e494c/log.png",
+        "name":"Cajitas.cl",
+        "city":"Lucknow",
+        "description": "En cajitas.cl nos dedicamos en ofrecerte un servicio de calidad y compromiso, ayudándote a conseguir ese medio que de seguro sorprenderá a esa persona en especial.",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Diseñamos y construimos una tienda virtual para la venta de cualquier tipo de cajitas y ocasión personalizadas. </div>"
+        ]
+    },
+    {
+        "id":6,
+        "job": "Backend / Front End Developer",
+        "date": "Junio 2021 - Septiembre 2021",
+        "url": "https://topisimaoptica.cl/",
+        "logo": "https://ucarecdn.com/f37e3ded-5887-40c9-9d04-a72f0f1ac6af/topo4c9dd973.png",
+        "name": "Topisima Optica",
+        "city": "Lucknow",
+        "description": "Tienda especializada en la venta de lentes y accesorios para el cuidado de la vista. ",
+        "aptitude": [
+            "<div class='flex mb-2 item-works'>Diseñamos y construimos una tienda virtual para la venta de cualquier tipo de cajitas y ocasión personalizadas. </div>"
+        ]
     }
 
 ]

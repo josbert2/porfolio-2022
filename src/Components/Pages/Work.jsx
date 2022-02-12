@@ -22,7 +22,7 @@ const Works = () => {
 
   return (
     <div>
-      <div class="count-point flex  place-items-end text-xl mb-14 relative">
+      <div class="count-point hidden place-items-end text-xl mb-14 relative">
           03. <span className="ml-2.5 text-2xl text-white"> Some Things I’ve Built</span>
           <div class=" h-px border-green w-72 ml-auto absolute top-2/4 right-0 transform -translate-y-2/4"></div>
       </div> 
