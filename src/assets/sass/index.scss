@@ -1856,3 +1856,148 @@ section.fullpage.dark {
     }
 
 }
+
+.eeeRej:not(:last-of-type) {
+    margin-bottom: 100px;
+}
+
+.eeeRej {
+    position: relative;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.eeeRej:nth-of-type(2n+1) .project-content {
+    grid-column: 7 / -1;
+    text-align: right;
+}
+
+.eeeRej .project-content {
+    position: relative;
+    grid-area: 1 / 1 / -1 / 7;
+}
+.eeeRej .project-overline {
+    margin: 10px 0px;
+    font-weight: 400;
+}
+@media (min-width: 768px){
+
+.eeeRej .project-title {
+    margin: 0px 0px 20px;
+}}
+
+
+.eeeRej .project-title {
+   
+    font-size: clamp(24px, 5vw, 28px);
+}
+
+.dnNJYD a {
+    position: relative;
+    z-index: 1;
+}
+
+.eeeRej .project-description {
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: #112240;
+    color: #a8b2d1;
+}
+p:last-child, p:last-of-type {
+    margin: 0px;
+}
+
+.eeeRej:nth-of-type(2n+1) .project-tech-list {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.eeeRej .project-tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.eeeRej:nth-of-type(2n+1) .project-tech-list li {
+    margin: 0px 0px 5px 20px;
+}
+
+
+.eeeRej .project-tech-list li {
+    margin: 0px 20px 5px 0px;
+    white-space: nowrap;
+}
+
+.eeeRej:nth-of-type(2n+1) .project-links {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+
+.eeeRej .project-links {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+.eeeRej:nth-of-type(2n+1) .project-image {
+    grid-column: 1 / 8;
+}
+
+.eeeRej .project-image {
+
+
+    grid-area: 1 / 6 / -1 / -1;
+    position: relative;
+    z-index: 1;
+}
+.eeeRej .project-image a {
+    width: 100%;
+    height: 100%;
+  
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.dnNJYD a {
+    position: relative;
+    z-index: 1;
+}
+
+.eeeRej .project-image .img {
+    border-radius: 4px;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1) brightness(90%);
+}
+
+.gatsby-image-wrapper img[alt=""], img:not([alt]) {
+    filter: blur(5px);
+}
+.gatsby-image-wrapper img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+}

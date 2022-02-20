@@ -14,7 +14,7 @@ import Logo from './Components/Misc/Logo';
 import About from  './Components/Pages/About';
 import Worked from './Components/Pages/Worked';
 import Works from './Components/Pages/Work';
-
+import SayHello from './Components/Pages/SayHello';
 
 
 // assets
@@ -73,7 +73,8 @@ const App = () => {
         <div className='md:px-44 lg:px-40 xl:52'>
         <About /> 
         <Worked />
-        <Works /> 
+        {/*<Works />  */}
+        <SayHello />
         </div>
        
       {/* </SmothScroll> */}
