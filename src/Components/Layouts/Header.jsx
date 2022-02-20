@@ -96,7 +96,7 @@ const Header = () => {
        
         <div>
             <Progress scroll={scrollPosition + '%'} />
-            <header className="fixed z-10 w-full py-3 md:px-44 lg:px-40 xl:52 header--class">
+            <header className="fixed z-10 w-full px-4 py-3 md:px-44 lg:px-40 xl:52 header--class">
              
              <div className="flex items-center w-full">
                  <div className="logo-main h-11">
@@ -116,7 +116,7 @@ const Header = () => {
                          </g>
                      </svg>
                  </div>
-                 <div class="ml-auto">
+                 <div class="ml-auto md:block hidden">
                      <ul class="header-ul flex items-center">
                          <li class="">
                              <a href="">
@@ -144,6 +144,12 @@ const Header = () => {
                          </li>
                      </ul>
                  </div>
+                 <div class="ml-auto md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-white text-opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                 </div>
+
              </div>
          </header>
         </div>

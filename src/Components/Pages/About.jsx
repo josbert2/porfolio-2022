@@ -5,12 +5,12 @@ import me from "../../assets/img/perfil.jpg";
 const About = () => {
   return (
     <div>
-      <div class="count-point flex  place-items-end text-xl mb-14 relative">
+      <div class="count-point flex  place-items-end text-xl mb-14 relative md:px-0 px-4">
           01. <span className="ml-2.5 text-2xl text-white"> About Me</span>
-          <div class=" h-px border-green w-72 ml-auto absolute top-2/4 right-0 transform -translate-y-2/4"></div>
+          <div class=" h-px border-green w-11 right-4 md:w-72 ml-auto absolute top-2/4 md:right-0 transform -translate-y-2/4"></div>
       </div> 
-     <div className="grid grid-cols-2">
-        <div>
+     <div className="flex flex-col grid-cols-2 md:grid">
+        <div className="order-2 px-4 md:order-none md:order-0 md:px-0">
             <div class="text-white text-opacity-80 leading-relaxed">
             Hello! Mi nombre es Josbert y disfruto creando cosas que viven en Internet. 
             Mi interés en el desarrollo web comenzó en 2012 cuando decidí intentar editar 
@@ -124,7 +124,7 @@ const About = () => {
             </div>
         
         </div>
-        <div class="relative flex justify-end">
+        <div class="relative flex justify-center md:justify-end md:order-0 order-1 md:mb-0 mb-11">
             <div class=" profile-photo">
                 <img src={ me } alt="" class="filter grayscale img-profile ml-auto" /> 
             </div>      

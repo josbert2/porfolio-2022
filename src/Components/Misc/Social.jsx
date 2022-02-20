@@ -4,7 +4,7 @@ const Social = () => {
     return (
         <div className="social">
             <div orientation="left" class="w-11 fixed bottom-0 left-10 right-auto z-10 ">
-            <ul class="social__">
+            <ul class="social__ md:block hidden">
                 <li>
                     <a href="https://github.com/josbert2" class="p-2" aria-label="GitHub" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">

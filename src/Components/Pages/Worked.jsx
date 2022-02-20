@@ -49,14 +49,14 @@ const Worked = () => {
 
   
   return (
-    <div className="pt-56">
-      <div class="count-point flex  place-items-end text-xl mb-14 relative">
-        <div class=" h-px border-green w-72 ml-auto absolute top-2/4 right-0 transform -translate-y-2/4"></div>
+    <div className="pt-11 md:pt-56">
+      <div class="count-point flex  place-items-end text-xl mb-14 relative md:px-0 px-4">
+        <div class="  h-px border-green w-11 right-4 md:w-72 ml-auto absolute top-2/4 md:right-0 transform -translate-y-2/4"></div>
           02. <span className="ml-2.5 text-2xl text-white"> Where I´ve Worked</span>
           
       </div> 
-      <div className="py-20 height-max">
-          <div className="grid grid-cols-3 gap-20">
+      <div className="py-11 md:py-20 height-max">
+          <div className="flex flex-col grid-cols-3 gap-20 md:flex-row md:grid">
             <div>
                 <div class="box">
                     <nav class="magic-line  relative">
@@ -78,23 +78,23 @@ const Worked = () => {
                 </div>
 
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 px-4 md:px-0">
                 <div className="text-white tw-container-tab md:px-0 lg:px-0 xl:pl-5">
                     {Data.map((info, index)=>{
                         return(
                           <div  class={ index == 0 ? 'item-container-tw w-full active' : 'item-container-tw w-full'} data-tab={info.id}>
                               <div className="flex items-center w-full">
                                   <div class="flex flex-colr w-full">
-                                    <div className="flex flex-col w-full">
+                                    <div className="flex flex-col items-center w-full md:items-start">
                                       <div class="w-44 mb-8">
                                         <img src={info.logo}/>
                                       </div>
-                                      <div className="flex items-center">
+                                      <div className="relative flex flex-col md:items-center md:flex-row">
                                         <span className="mr-1 text-xl font-bold">{info.job} - </span>
-                                        <a href={info.url} target='_blank'>
+                                        <a href={info.url} target='_blank' class="w-full md:w-auto md:text-right text-left">
                                           <h2 className="mb-0 text-2xl font-bold text-left text-mint-green-500">@{info.name}</h2>
                                         </a>
-                                        <a href={info.url} target='_blank' className="flex ml-auto ">
+                                        <a href={info.url} target='_blank' className="absolute top-0 right-0 flex ml-auto md:relative md:top-0 md:right-0">
                                         
                                           <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
