@@ -11,10 +11,10 @@ const Works = () => {
 
 
   return (
-    <div className="mt-44">
+    <div className="px-7 mt-44 md:px-0">
       <div class="count-point flex   text-xl mb-14 relative">
-      <div class=" h-px border-green w-72 ml-auto absolute top-2/4 right-0 transform -translate-y-2/4"></div>
-      04.<span class="ml-2.5 text-2xl text-white">Some Things I’ve Built</span></div>
+      <div class="  h-px border-green w-11 right-4 md:w-72 ml-auto absolute top-2/4 md:right-0 transform -translate-y-2/4"></div>
+      03.<span class="ml-2.5 text-2xl text-white">Some Things I’ve Built</span></div>
 
 
       <div className="featured__StyledProject-ywnbqt-1 eeeRej">

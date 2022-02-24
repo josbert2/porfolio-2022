@@ -15,6 +15,7 @@ import About from  './Components/Pages/About';
 import Worked from './Components/Pages/Worked';
 import Works from './Components/Pages/Work';
 import SayHello from './Components/Pages/SayHello';
+import Footer from './Components/Pages/Footer';
 
 
 // assets
@@ -75,6 +76,7 @@ const App = () => {
         <Worked />
         {/*<Works />  */}
         <SayHello />
+        <Footer />
         </div>
        
       {/* </SmothScroll> */}
