@@ -28,7 +28,7 @@ const App = () => {
       <Header />
       <Social />
       {/* <SmothScroll /> */}
-      {/*<Cube /> */}
+      <Cube />
       
       <div class='grey'></div>
 
