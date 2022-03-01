@@ -2001,3 +2001,36 @@ p:last-child, p:last-of-type {
     width: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 1199px){
+    .hero h1 {
+        font-size: 72px;
+        margin-top: 240px;
+    }
+}
+
+.hero h1 {
+    color: #fff;
+    font-family: Articulat CF,system-ui,sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: 320px;
+    max-width: 850px;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero h1 #hero-heading-key-line {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,#d66761 16.66666%,#f5c0b2 33.33333%,#aee8fa 50%,#68bde7 66.66666%,#6bd490 83.33333%,#a2f6cf);
+    color: #fff;
+}
+
+.input-cc{
+    background-color: rgba(6, 7, 10, 0.24);
+    box-shadow: inset 0 1px 1px 0 rgb(255 255 255 / 12%), inset 0 0 0 1px rgb(255 255 255 / 10%);
+}
