@@ -49,13 +49,13 @@ const Worked = () => {
 
   
   return (
-    <div className="pt-11 md:pt-56">
+    <div className="pt-11 md:pt-56" id="experience">
       <div class="count-point flex  place-items-end text-xl mb-14 relative md:px-0 px-4">
         <div class="  h-px border-green w-11 right-4 md:w-72 ml-auto absolute top-2/4 md:right-0 transform -translate-y-2/4"></div>
           02. <span className="ml-2.5 text-2xl text-white"> Where I´ve Worked</span>
           
       </div> 
-      <div className="py-11 md:py-20 height-max">
+      <div className="px-5 py-11 md:py-20 height-max md:px-0">
           <div className="flex flex-col grid-cols-3 gap-20 md:flex-row md:grid">
             <div>
                 <div class="box">

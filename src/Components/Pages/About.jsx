@@ -4,7 +4,7 @@ import me from "../../assets/img/perfil.jpg";
 
 const About = () => {
   return (
-    <div>
+    <div id="about" class="md:mt-0 mt-14">
       <div class="count-point flex  place-items-end text-xl mb-14 relative md:px-0 px-4">
           01. <span className="ml-2.5 text-2xl text-white"> About Me</span>
           <div class=" h-px border-green w-11 right-4 md:w-72 ml-auto absolute top-2/4 md:right-0 transform -translate-y-2/4"></div>

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Component } from 'react';
 import Progress from '../Misc/Progress';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Header = () => {
 
@@ -119,28 +121,52 @@ const Header = () => {
                  <div class="ml-auto md:block hidden">
                      <ul class="header-ul flex items-center">
                          <li class="">
-                             <a href="">
-                                 About
-                             </a>
+                             <Link 
+                                activeClass='active'
+                                to='about'
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
+                                 Sobre mi 
+                             </Link>
                          </li>
  
                          <li class="">
-                             <a href="">
+                            <Link 
+                                activeClass='active'
+                                to='experience'
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
                                  Experiencie
-                             </a>
+                             </Link>
                          </li>
  
  
                          <li class="">
-                             <a href="">
-                                 Works
-                             </a>
+                            <Link 
+                                activeClass='active'
+                                to='works'
+                                spy={true}
+                                smooth={true}
+                                offset={-80}
+                                duration={500}>
+                                 Trabajos
+                             </Link>
                          </li>
  
                          <li>
-                             <a href="">
-                                 Contact
-                             </a>
+                         <Link 
+                                activeClass='active'
+                                to='contact'
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
+                                 Contacto
+                             </Link>
                          </li>
                      </ul>
                  </div>

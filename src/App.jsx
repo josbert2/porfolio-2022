@@ -2,9 +2,9 @@ import './App.css';
 import React from "react";
 
 import SmothScroll from './Components/SmoothScroll/SmoothScroll';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 // Layouts
-
+// service_7t8wtjn
 import Header from './Components/Layouts/Header';
 import Social from './Components/Misc/Social';
 import Logo from './Components/Misc/Logo';
@@ -32,7 +32,7 @@ const App = () => {
       
       <div class='grey'></div>
 
-        <div className="md:px-44 lg:px-40 xl:52" >
+        <div className="mt-20 md:px-44 lg:px-40 xl:52 md:mt-0" >
          
           <div class="main-hero md:px-0 px-5">
           <section class="mb-3 md:w-auto w-full">
@@ -54,12 +54,22 @@ const App = () => {
             
               <div class="flex md:flex-row flex-col w-full">
                
-                <button class="btn-linear md:w-44 w-full btn--label mt-6  text-white font-bold text text-sm text-opacity-90 px-14 py-4 will-change transform-gpu transition-transform ease-linear hover:-translate-y-1">
+                <Link activeClass='s'
+                                to='about'
+                                spy={true}
+                                smooth={true}
+                                offset={-80}
+                                duration={500} className="w-full py-4 mt-6 text-sm font-bold text-white transition-transform ease-linear btn-linear md:w-44 btn--label text text-opacity-90 px-14 will-change transform-gpu hover:-translate-y-1">
                     RESUME
-                </button>
-                <button class="btn--label md:w-44 w-full md:ml-7 mt-6 border  btn-linear2 uppercase font-bold text-gray-300 text text-sm text-opacity-90 px-14 py-4 will-change transform-gpu transition-transform ease-linear hover:-translate-y-1">
+                </Link>
+                <Link activeClass='s'
+                    to='experience'
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500} className="w-full py-4 mt-6 text-sm font-bold text-gray-300 uppercase transition-transform ease-linear border btn--label md:w-44 md:ml-7 btn-linear2 text text-opacity-90 px-14 will-change transform-gpu hover:-translate-y-1">
                     Work´s
-                </button>
+                </Link>
               </div>
           </div>
           <Logo /> 
